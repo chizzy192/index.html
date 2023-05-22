@@ -1,0 +1,81 @@
+<!DOCTYPE  html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Survey Form</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body> 
+    <div id='body'>
+      <main>
+        <div id='main'>
+          <h1 id='title'>Chizzy's Cafe Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+      <section class='section'>
+        <form method="post" id="survey-form">
+          <fieldset>
+      <label id='name-label'>Name<input type='text' placeholder='Enter your Name' id='name' class='border' required/></label><br>
+      <label id='email-label'>Email<input type='email' id='email'  placeholder='Enter your Email' class='border' required/></label><br>
+      <label id='number-label'>Age(optional)<input type='number' id='number' min='13' max='100' class='border' placeholder='Age'/></label>
+
+          </fieldset>
+          <br>
+          <fieldset>
+               <label for='dropdown'> 
+            <select id='dropdown'>
+            <option value='choice' class='border'>Select current role</option>
+            <option value='student'>Student</option>
+             <option value='full-time-job' class='border'>Full Time Job</option>
+            <option value='full-time-learner' class='border'>Part Time Job</option>
+            <option value='prefer-not-to-say' class='border'>Prefer not to say</option>
+      </select>
+      </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        Would you recommend Chizzy's cafe to someone?<br>
+        <label><input  value='definitely' type='radio' name='action' class='inline'>Definitely</label>
+        <label><input type='radio' name='action' class='inline' value='maybe'>Maybe</label>
+        <label><input type='radio' name='action' class='inline' value='not-sure'>Not sure</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <label for='dropdown'>What is your favorite feature of Chizzy's Cafe?
+          <select id='dropdown'>
+            <option class='border'>Select an option</option>
+            <option class='border'>Unlimited free internet connection</option>
+            <option class='border'>Coffee</option>
+            <option class='border'>Tea</option>
+            <option class='border'>Pastries</option>
+          </select>
+        </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <label for='checkbox' id='survey-form'>What would you like to see improved? (Check all that apply)</label><br>
+          <input type='checkbox' id='menu' value='menu' class='check'/>Additional Menu<br>
+          <input type='checkbox' id='service' value='service' class='check'/>Customer care service<br>
+          <input type='checkbox' id='improving-menu' value='improving-menu' class='check'/>Improving the menu<br>
+          <input type='checkbox' id='decoration' value='decoration' class='check'/>Cafe's Interior decoration<br>
+         <input type='checkbox' id='website' value='website' class='check'/>Cafe's offical website<br>
+       
+      </fieldset>
+      <fieldset>
+ Any comments or suggestions?<br>
+      <textarea  type='text' id='textarea' value='textarea' placeholder='Enter any comment here...' rows="3" cols="30"></textarea><br>
+      <div class='btn'>
+<input type='submit' id='submit' value='submit' name='submit' >
+      </div>
+      
+         </fieldset>
+      
+        </form>
+      </section>
+        </div>
+      
+      <!-- <section></section>
+      <section></section> -->
+    </main>
+    </div>
+    
+  </body>

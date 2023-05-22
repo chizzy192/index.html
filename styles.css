@@ -1,0 +1,51 @@
+*{
+  font-family:sans-serif;
+  padding:5px;
+  display:border-box;
+}
+#body{
+ background-image:url(https://th.bing.com/th/id/OIP.731dy08emdOSmne0XQVqzQHaHa?pid=ImgDet&rs=1);
+  background-repeat: 2;
+  background-size: 100%;
+ font-size:20px;
+ color: #ffbb33;
+}
+#title, #description{
+  text-align:center;
+  font-weight:bold;
+}
+fieldset{
+  border-width:4px;
+  border-style: solid;
+  border-color:#ffbb33;
+  border-top:0px;
+  border-right:0px;
+  border-left:0px;
+}
+.border, #dropdown, textarea{
+  width:99%;
+  display:block;
+  border:2px;
+  border-radius:3px;
+  color:#ffbb33;
+  background-color:#fffa;
+}
+#inline{
+  width:50%
+}
+#submit{
+  width:60%;
+  height:8%;
+  font-size:20px;
+  color:#ffbb33;
+  background-color:#fffff0;
+}
+.btn{
+  padding-left:30%;
+}
+input::placeholder, textarea::placeholder{
+  color:rgb(238, 150, 19);
+}
+.section{
+  margin-left:-7px;
+}
